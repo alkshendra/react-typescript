@@ -1,0 +1,26 @@
+.header {
+	border-bottom: solid 1px #eaeaec;
+}
+.headerWrap {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 100%;
+	max-width: var(--app-wrapper-width);
+	margin: auto;
+	padding: 8px 0;
+}
+.headerActions {
+	display: flex;
+	align-items: flex-end;
+	a {
+		margin: 0 0 0 40px;
+		text-align: center;
+		font-size: 14px;
+		color: #282c3f;
+		&.messagesAct img {
+			margin: 0 0 4px;
+			width: 26px;
+		}
+	}
+}
